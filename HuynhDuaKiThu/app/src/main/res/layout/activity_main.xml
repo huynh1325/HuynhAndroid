@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/caro">
+
+    <CheckBox
+        android:id="@+id/chechBoxThree"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/chechBoxTwo"
+        android:layout_above="@id/chechBoxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/chechBoxOne"
+        android:layout_above="@id/chechBoxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/seekBarThree"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/chechBoxThree"
+        android:thumb="@drawable/lapras"/>
+
+    <SeekBar
+        android:id="@+id/seekBarTwo"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_above="@id/seekBarThree"
+        android:layout_toRightOf="@id/chechBoxTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/pika"/>
+
+    <SeekBar
+        android:id="@+id/seekBarOne"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seekBarTwo"
+        android:layout_toRightOf="@id/chechBoxOne"
+        android:thumb="@drawable/pkm"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/animal_crossing_logo"/>
+
+    <TextView
+        android:id="@+id/textviewDiemso"
+        android:layout_margin="10dp"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/buttonplay"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/play"/>
+</RelativeLayout>

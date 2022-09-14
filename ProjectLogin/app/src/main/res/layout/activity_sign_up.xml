@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+
+            />
+        <EditText
+            android:id="@+id/etxUser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="username"
+            android:textColorHint="#000000"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/etxPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:textColorHint="#000000"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/edit1"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/etxPasswordAgain"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="password again"
+            android:textColorHint="#000000"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/edit1"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <CheckBox
+                android:id="@+id/checkboxOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/checkboxOne"
+                android:text="You agree to the terms of service"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btnSignUp"
+            android:background="@drawable/button"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/btnSignIn"
+            android:background="@drawable/button1"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

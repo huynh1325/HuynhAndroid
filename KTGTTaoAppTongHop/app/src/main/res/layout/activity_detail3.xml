@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail3">
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/martinez"/>
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lisandro Martinez"
+        android:layout_below="@id/image3"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv13"
+        android:layout_marginTop="10dp"
+        android:text="Club: Manchester United"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/tv33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv23"
+        android:layout_marginTop="10dp"
+        android:text="Nationality: Argentina"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv33"
+        android:layout_marginTop="10dp"
+        android:text="18/1/1998"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv43"
+        android:layout_marginTop="10dp"
+        android:text="Center Back"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/btnback3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv53"
+        android:layout_marginTop="10dp"
+        android:text="BACK"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

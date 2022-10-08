@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail2">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/m10"/>
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lionel Messi"
+        android:layout_below="@id/image2"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv12"
+        android:layout_marginTop="10dp"
+        android:text="Fullname: Lionel Andrés Messi"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/tv32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv22"
+        android:layout_marginTop="10dp"
+        android:text="Club: Paris Saint-Germain"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv32"
+        android:layout_marginTop="10dp"
+        android:text="Nationality: Argentina"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv42"
+        android:layout_marginTop="10dp"
+        android:text="24/6/1987"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv52"
+        android:layout_marginTop="10dp"
+        android:text="Forward"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv62"
+        android:layout_marginTop="10dp"
+        android:text="BACK"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

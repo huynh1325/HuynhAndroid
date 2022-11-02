@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imgicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_action_menu"/>
+
+    <TextView
+        android:id="@+id/tvitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>

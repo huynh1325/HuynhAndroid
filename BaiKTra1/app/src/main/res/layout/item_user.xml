@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgcasi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/tvtencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten Ca Si"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/imgcasi"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/tvnghedanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nghe Danh"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/imgcasi"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tvtencasi"/>
+        <TextView
+            android:id="@+id/tvquocgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quoc Gia"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/imgcasi"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tvnghedanh"/>
+
+        <ImageView
+            android:id="@+id/imgsao"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/star"
+            android:layout_toRightOf="@id/imgcasi"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/tvquocgia"/>
+
+        <TextView
+            android:id="@+id/tvsao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/imgcasi"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tvquocgia"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
